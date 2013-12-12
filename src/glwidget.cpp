@@ -154,9 +154,10 @@ void GLWidget::open_graphic(std::string file){
 		std::string color_string;
 		std::getline(iss,color_string,',');
         int rgb = (int)strtol(color_string.c_str(), NULL, 16);
-        int r = double((rgb&0xFF0000)>>16)/255.0;
-        int g = double((rgb&0x00FF00)>>8)/255.0;
-        int b = double(rgb&0x0000FF)/255.0;
+        double r = double((rgb&0xFF0000)>>16)/255.0;
+        double g = double((rgb&0x00FF00)>>8)/255.0;
+        double b = double(rgb&0x0000FF)/255.0;
+        qDebug() << r << ".." << g << ".." << b << "..";
 		open_layer(layer_file,r,g,b);
 	}
 }
