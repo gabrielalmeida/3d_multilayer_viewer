@@ -12,7 +12,7 @@ A simple C++ QT-based 3D viewer for height maps.
 3. Change layer colors/camera positions
 4. Record a video from view trough ffmpeg
 
-The program will then read the data on the files and display it on the screen. You should see something similar to this:
+The program will read the data on the files and display it on the screen. You should see something similar to this:
 
 ![print](https://raw.github.com/gabrielalmeida/3d_multilayer_viewer/master/doc/3dmv_example.png)
 
