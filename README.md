@@ -1,6 +1,8 @@
 
 ### 3D Multilayer Viewer
 
+![print](https://raw.github.com/gabrielalmeida/3d_multilayer_viewer/master/doc/logo.png)
+
 A simple C++ QT-based 3D viewer for height maps.
 
 ---
@@ -12,7 +14,7 @@ A simple C++ QT-based 3D viewer for height maps.
 
 The program will then read the data on the files and display it on the screen. You should see something similar to this:
 
-![print](https://raw.github.com/viclib/3d_multilayer_viewer/master/example/example.png)
+![print](https://raw.github.com/gabrielalmeida/3d_multilayer_viewer/master/doc/3dmv_example.png)
 
 Observe the files at `/example` to understand how to include your own layers.
 
@@ -26,6 +28,7 @@ Ctrl+O | Open new file(.v3d)
 Ctrl+S | Save current file
 Arrow Up/Arrow Down | Increase/decrease camera inclination
 Arrow Left/Arrow Right | Rotate camera
+Shift+Pad/Wheel | Move around
 W | Move forward
 A | Move left
 S | Move back
