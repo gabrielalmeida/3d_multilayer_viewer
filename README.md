@@ -1,6 +1,4 @@
 
-### 3D Multilayer Viewer
-
 ![print](https://raw.github.com/gabrielalmeida/3d_multilayer_viewer/master/doc/logo.png)
 
 A simple C++ QT-based 3D viewer for height maps.
@@ -16,7 +14,7 @@ The program will then read the data on the files and display it on the screen. Y
 
 ![print](https://raw.github.com/gabrielalmeida/3d_multilayer_viewer/master/doc/3dmv_example.png)
 
-Observe the files at `/example` to understand how to include your own layers.
+Observe the files at `/examples` to understand how to include your own layers.
 
 ---
 
@@ -48,8 +46,10 @@ Pattern | Equivalent
 --- | ---
 %1 | Images path(location where images used to generate video are stored)
 %2 | Save to path(path selected at user interface)
-%3 | Script path(to be able to use relative paths - e.g.: %3/audio.mp3 would load the file at same path of script)
+%3 | Script path(to be able to use relative paths - e.g.: '%3/audio.mp3' would load the file at same path of script)
 %4 | Intro file(path to app logo image)
+
+There is an ffmpeg script example file at '/examples' folder
 
 #### Dependecies
 
