@@ -26,9 +26,31 @@ Ctrl+O | Open new file(.v3d)
 Ctrl+S | Save current file
 Arrow Up/Arrow Down | Increase/decrease camera inclination
 Arrow Left/Arrow Right | Rotate camera
+W | Move forward
+A | Move left
+S | Move back
+D | Move right
 Z | Toggle axis
 X | Toggle guides
 U/I | Back/Advance LayerSet
 Keys 1 to 9 | Hide/Show Layer N
 HorizontalPad | Change Slider position
 J/K/Wheel/VerticalPad | Zoom in/out
+
+#### Generate Video Custom Script
+
+-> Create a text file with own ffmpeg commands, accordingly to this syntax:
+
+Pattern | Equivalent
+--- | ---
+%1 | Images path(location where images used to generate video are stored)
+%2 | Save to path(path selected at user interface)
+%3 | Script path(to be able to use relative paths - e.g.: %3/audio.mp3 would load the file at same path of script)
+%4 | Intro file(path to app logo image)
+
+#### Dependecies
+
+* OpenGL
+* ffmpeg
+
+-> ffmpeg library needs to be installed at user path enviroment to proper 'Generate Video' functionality
