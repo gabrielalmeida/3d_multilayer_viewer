@@ -8,7 +8,7 @@ A simple C++ QT-based 3D viewer for height maps.
 #### Example usage:
 
 1. Compile and run it using QtCreator 5+
-2. File > Open > /example/example.v3d
+2. File > Open > `/examples/example_1/example_1.v3d`
 3. Change layer colors/camera positions
 4. Record a video from view trough ffmpeg
 
