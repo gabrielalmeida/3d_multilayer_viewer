@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>bg.jpg</file>
+        <file>eye-icon-hide.png</file>
+        <file>eye-icon-view.png</file>
+    </qresource>
+</RCC>

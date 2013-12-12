@@ -39,7 +39,7 @@ J/K/Wheel/VerticalPad | Zoom in/out
 
 #### Generate Video Custom Script
 
--> Create a text file with own ffmpeg commands, accordingly to this syntax:
+Create a text file with own ffmpeg commands, accordingly to this syntax:
 
 Pattern | Equivalent
 --- | ---
@@ -53,4 +53,4 @@ Pattern | Equivalent
 * OpenGL
 * ffmpeg
 
--> ffmpeg library needs to be installed at user path enviroment to proper 'Generate Video' functionality
+*ffmpeg library needs to be installed at user path enviroment to proper 'Generate Video' functionality*
