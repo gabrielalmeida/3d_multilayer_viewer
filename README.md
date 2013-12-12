@@ -9,6 +9,8 @@ A simple C++ QT-based 3D viewer for height maps.
 
 1. Compile and run it using QtCreator 5+
 2. File > Open > /example/example.v3d
+3. Change layer colors/camera positions
+4. Record a video from view trough ffmpeg
 
 The program will then read the data on the files and display it on the screen. You should see something similar to this:
 
@@ -53,12 +55,16 @@ Pattern | Equivalent
 
 There is an ffmpeg script example file at '/examples' folder
 
+---
+
 #### Dependecies
 
 * OpenGL
 * ffmpeg
 
 *ffmpeg library needs to be installed at user path enviroment to proper 'Generate Video' functionality*
+
+---
 
 ### About
  Version authored by Gabriel Almeida and [Victor Maia](https://github.com/viclib/3d_multilayer_viewer)
