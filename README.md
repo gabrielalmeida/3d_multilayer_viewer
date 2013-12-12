@@ -38,6 +38,8 @@ Keys 1 to 9 | Hide/Show Layer N
 HorizontalPad | Change Slider position
 J/K/Wheel/VerticalPad | Zoom in/out
 
+---
+
 #### Generate Video Custom Script
 
 Create a text file with own ffmpeg commands, accordingly to this syntax:
@@ -57,3 +59,6 @@ There is an ffmpeg script example file at '/examples' folder
 * ffmpeg
 
 *ffmpeg library needs to be installed at user path enviroment to proper 'Generate Video' functionality*
+
+### About
+ Version authored by Gabriel Almeida and [Victor Maia](https://github.com/viclib/3d_multilayer_viewer)
