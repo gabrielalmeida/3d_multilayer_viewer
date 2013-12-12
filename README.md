@@ -53,7 +53,7 @@ Pattern | Equivalent
 %3 | Script path(to be able to use relative paths - e.g.: `%3/audio.mp3` would load the file at same path of script)
 %4 | Intro file(path to app logo image)
 
-There is an ffmpeg script example file at `/examples` folder
+There is an ffmpeg script example file at `/examples` folder.
 
 ---
 
@@ -67,4 +67,4 @@ There is an ffmpeg script example file at `/examples` folder
 ---
 
 ### About
- Version authored by Gabriel Almeida and [Victor Maia](https://github.com/viclib/3d_multilayer_viewer)
+ Version authored by Gabriel Almeida and [Victor Maia](https://github.com/viclib/3d_multilayer_viewer).<D-r>

@@ -39,6 +39,7 @@ private slots:
     void save_graphic();
     void changeAllLayersColors(bool color);
     void about();
+    void openHelp();
 private:
 
     QMenu *menuVideo;

@@ -101,10 +101,16 @@ void MainWindow::createDockWindows()
         helpMenu->addAction(aboutAction);
         helpMenu->addAction(helpAction);
 
+        connect(helpAction, SIGNAL(triggered()), this, SLOT(openHelp()));
         connect(aboutAction, SIGNAL(triggered()), this, SLOT(about()));
     }
 
     addDockWidget(Qt::BottomDockWidgetArea, sliderDock);
+}
+
+void MainWindow::openHelp() {
+    QString link = "https://github.com/gabrielalmeida/3d_multilayer_viewer";
+    QDesktopServices::openUrl(QUrl(link));
 }
 
 void MainWindow::about() {
