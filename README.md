@@ -62,8 +62,8 @@ There is an ffmpeg script example file at `/examples` folder.
 * OpenGL
 * ffmpeg
 
-*ffmpeg library needs to be installed at user path enviroment to proper 'Generate Video' functionality
-On *nix systems pasting ffmpeg bin at `/usr/local/bin/` should be enough*
+*ffmpeg library needs to be installed at user path enviroment to proper 'Generate Video' functionality*
+*On *nix systems pasting ffmpeg bin at `/usr/local/bin/` should be enough*
 
 ---
 
