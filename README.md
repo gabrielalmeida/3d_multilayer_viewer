@@ -3,7 +3,7 @@
 
 A simple C++ QT-based 3D viewer for height maps.
 
-NOTE: This is an unmaintened college project version. A stable version will be released soon under 4Dmv name.
+NOTE: This is an unmaintained college project version. A stable version will be released someday under 4Dmv name.
 
 ---
 
@@ -70,4 +70,4 @@ There is an ffmpeg script example file at `/examples` folder.
 ---
 
 ### About
- Version authored by Gabriel Almeida and [Victor Maia](https://github.com/viclib/3d_multilayer_viewer).<D-r>
+ Version authored by Gabriel Almeida and [Victor Maia](https://github.com/viclib/3d_multilayer_viewer) as a UFRJ project.
