@@ -157,7 +157,7 @@ void GLWidget::open_graphic(std::string file){
         double r = double((rgb&0xFF0000)>>16)/255.0;
         double g = double((rgb&0x00FF00)>>8)/255.0;
         double b = double(rgb&0x0000FF)/255.0;
-        qDebug() << r << ".." << g << ".." << b << "..";
+        //qDebug() << r << ".." << g << ".." << b << "..";
 		open_layer(layer_file,r,g,b);
 	}
 }
