@@ -70,4 +70,8 @@ There is an ffmpeg script example file at `/examples` folder.
 ---
 
 ### About
+<<<<<<< HEAD
  Version authored by Gabriel Almeida and [Victor Maia](https://github.com/viclib/3d_multilayer_viewer) as a UFRJ project.
+=======
+ Version authored by Gabriel Almeida and [Victor Maia](https://github.com/viclib/3d_multilayer_viewer).<D-r> as a UFRJ project.
+>>>>>>> 03fa4036a941a6e4d3c2913c427f3966007249b0
