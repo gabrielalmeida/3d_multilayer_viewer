@@ -3,7 +3,7 @@
 
 A simple C++ QT-based 3D viewer for height maps.
 
-NOTE: This is an unmaintained college project version. A stable version will be released someday under 4Dmv name.
+NOTE: This is an unmaintained college project version. ~~A stable version will be released someday under 4Dmv name~~.
 
 ---
 
